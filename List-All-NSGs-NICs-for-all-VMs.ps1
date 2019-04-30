@@ -13,7 +13,7 @@
 #
 
 #Write-Host " Error Action attribute has been disabled for this script.`n This script will not give any error messages even if there is any error message" -ForegroundColor Red
-#Write-Host "Output files 'NSG-DIP.txt' and 'All-NSG-VM-DIP.csv' will be created in C:\" -ForegroundColor Green
+Write-Host "Output files 'NSG-DIP.txt' and 'All-NSG-VM-DIP.csv' will be created in C:\" -ForegroundColor Green
 
 #Creating the txt file with Column names
 "NSG-NIC-Level:NSG-Name + VM-Name + NIC/Subnet-Name + DIP" | Out-File  c:\nsg-DIP.txt
